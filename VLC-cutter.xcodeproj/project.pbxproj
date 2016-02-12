@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C60683FF1C6D7F0400AC0F36 /* main.command in Resources */ = {isa = PBXBuildFile; fileRef = C60683FE1C6D7F0400AC0F36 /* main.command */; };
+		C60684021C6D7F0400AC0F36 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = C60684001C6D7F0400AC0F36 /* main.xib */; };
+		C60684061C6D7F0400AC0F36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C60684041C6D7F0400AC0F36 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C60683FB1C6D7F0400AC0F36 /* VLC-cutter.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VLC-cutter.action"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60683FE1C6D7F0400AC0F36 /* main.command */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.command; sourceTree = "<group>"; };
+		C60684011C6D7F0400AC0F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/main.xib; sourceTree = "<group>"; };
+		C60684031C6D7F0400AC0F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C60684051C6D7F0400AC0F36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C60683F71C6D7F0400AC0F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C60683F11C6D7F0400AC0F36 = {
+			isa = PBXGroup;
+			children = (
+				C60683FD1C6D7F0400AC0F36 /* VLC-cutter */,
+				C60683FC1C6D7F0400AC0F36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C60683FC1C6D7F0400AC0F36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C60683FB1C6D7F0400AC0F36 /* VLC-cutter.action */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C60683FD1C6D7F0400AC0F36 /* VLC-cutter */ = {
+			isa = PBXGroup;
+			children = (
+				C60683FE1C6D7F0400AC0F36 /* main.command */,
+				C60684001C6D7F0400AC0F36 /* main.xib */,
+				C60684031C6D7F0400AC0F36 /* Info.plist */,
+				C60684041C6D7F0400AC0F36 /* InfoPlist.strings */,
+			);
+			path = "VLC-cutter";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C60683FA1C6D7F0400AC0F36 /* VLC-cutter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C60684091C6D7F0400AC0F36 /* Build configuration list for PBXNativeTarget "VLC-cutter" */;
+			buildPhases = (
+				C60683F61C6D7F0400AC0F36 /* Sources */,
+				C60683F71C6D7F0400AC0F36 /* Frameworks */,
+				C60683F81C6D7F0400AC0F36 /* Resources */,
+				C60683F91C6D7F0400AC0F36 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VLC-cutter";
+			productName = "VLC-cutter";
+			productReference = C60683FB1C6D7F0400AC0F36 /* VLC-cutter.action */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C60683F21C6D7F0400AC0F36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Karl Holz";
+				TargetAttributes = {
+					C60683FA1C6D7F0400AC0F36 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C60683F51C6D7F0400AC0F36 /* Build configuration list for PBXProject "VLC-cutter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C60683F11C6D7F0400AC0F36;
+			productRefGroup = C60683FC1C6D7F0400AC0F36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C60683FA1C6D7F0400AC0F36 /* VLC-cutter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C60683F81C6D7F0400AC0F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60684021C6D7F0400AC0F36 /* main.xib in Resources */,
+				C60684061C6D7F0400AC0F36 /* InfoPlist.strings in Resources */,
+				C60683FF1C6D7F0400AC0F36 /* main.command in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C60683F91C6D7F0400AC0F36 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "amlint \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C60683F61C6D7F0400AC0F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C60684001C6D7F0400AC0F36 /* main.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C60684011C6D7F0400AC0F36 /* Base */,
+			);
+			name = main.xib;
+			sourceTree = "<group>";
+		};
+		C60684041C6D7F0400AC0F36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C60684051C6D7F0400AC0F36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C60684071C6D7F0400AC0F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C60684081C6D7F0400AC0F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C606840A1C6D7F0400AC0F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "VLC-cutter/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_BUNDLE_IDENTIFIER = "SalamCast.VLC-cutter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Debug;
+		};
+		C606840B1C6D7F0400AC0F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "VLC-cutter/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_BUNDLE_IDENTIFIER = "SalamCast.VLC-cutter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C60683F51C6D7F0400AC0F36 /* Build configuration list for PBXProject "VLC-cutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60684071C6D7F0400AC0F36 /* Debug */,
+				C60684081C6D7F0400AC0F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C60684091C6D7F0400AC0F36 /* Build configuration list for PBXNativeTarget "VLC-cutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C606840A1C6D7F0400AC0F36 /* Debug */,
+				C606840B1C6D7F0400AC0F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C60683F21C6D7F0400AC0F36 /* Project object */;
+}
