@@ -294,6 +294,7 @@
 				C606840B1C6D7F0400AC0F36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

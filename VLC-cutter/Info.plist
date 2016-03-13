@@ -36,8 +36,6 @@
 	<dict>
 		<key>AMDInput</key>
 		<string>Accepts a list of start and end times in seconds</string>
-		<key>AMDNote</key>
-		<string>(* AMDNote text goes here. (optional) *)</string>
 		<key>AMDOptions</key>
 		<string>the action shold have the start and stop times set to zero if time cutting list is used</string>
 		<key>AMDRequires</key>
