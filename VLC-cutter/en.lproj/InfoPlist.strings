@@ -12,11 +12,11 @@ AMName = "VLC-cutter";
 
 /* AMDescription localized strings */
 AMDAlert = "(* AMDAlert text goes here. (optional) *)";
-AMDInput = "(* AMDInput text to further explain the types accepted as input goes here. (optional) *)";
+AMDInput = "Accepts a list of start and end times in seconds";
 AMDNote = "(* AMDNote text goes here. (optional) *)";
-AMDOptions = "(* AMDOptions text to further explain configuration options in the UI goes here. (optional) *)";
-AMDResult = "(* AMDResult text to further explain the types provided as output goes here. (optional) *)";
-AMDRequires = "(* AMDRequires text to explain anything outside of Automator required for the action's operation, e.g. a web page open in Safari, goes here. (optional) *)";
+AMDOptions = "the action shold have the start and stop times set to zero if time cutting list is used";
+AMDResult = "returns the new file created";
+AMDRequires = "This will require VLC.app installed in /Applications";
 AMDSummary = "(* AMDSummary text to explain what your action does goes here. *)";
 AMDWebsite = "(* AMDWebsite URL to additional information or documentation for the action goes here. (optional) *)";
 
