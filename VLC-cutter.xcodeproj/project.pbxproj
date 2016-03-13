@@ -18,6 +18,7 @@
 		C60684011C6D7F0400AC0F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/main.xib; sourceTree = "<group>"; };
 		C60684031C6D7F0400AC0F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C60684051C6D7F0400AC0F36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6A267241C95F2C10022A6E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +156,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C60684011C6D7F0400AC0F36 /* Base */,
+				C6A267241C95F2C10022A6E4 /* en */,
 			);
 			name = main.xib;
 			sourceTree = "<group>";

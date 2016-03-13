@@ -24,13 +24,13 @@
 	<key>AMDefaultParameters</key>
 	<dict>
 		<key>savepath</key>
-		<string>~/Desktop</string>
+		<string></string>
 		<key>filename</key>
 		<string></string>
 		<key>start_sec</key>
-		<integer>1</integer>
+		<integer>0</integer>
 		<key>stop_sec</key>
-		<integer>100</integer>
+		<integer>0</integer>
 	</dict>
 	<key>AMDescription</key>
 	<dict>

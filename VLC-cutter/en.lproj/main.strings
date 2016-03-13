@@ -1,0 +1,27 @@
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "1UZ-p1-nRJ"; */
+"1UZ-p1-nRJ.title" = "OtherViews";
+
+/* Class = "AMPathPopUpButton"; placeholder = "~/Desktop"; ObjectID = "NOX-qd-t8g"; */
+"NOX-qd-t8g.placeholder" = "~/Desktop";
+
+/* Class = "AMTokenFieldCell"; title = "0"; ObjectID = "NWy-Yv-bpu"; */
+"NWy-Yv-bpu.title" = "0";
+
+/* Class = "AMTokenFieldCell"; title = "0"; ObjectID = "dV3-sv-Ghy"; */
+"dV3-sv-Ghy.title" = "0";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "jb7-nD-H8L"; */
+"jb7-nD-H8L.title" = "OtherViews";
+
+/* Class = "NSTextFieldCell"; title = "End Time:"; ObjectID = "kAd-Ch-Num"; */
+"kAd-Ch-Num.title" = "End Time:";
+
+/* Class = "NSTextFieldCell"; title = "Start Time: "; ObjectID = "rEM-bw-h64"; */
+"rEM-bw-h64.title" = "Start Time: ";
+
+/* Class = "AMPathPopUpButton"; placeholder = "No Selection"; ObjectID = "uHz-D5-CYa"; */
+"uHz-D5-CYa.placeholder" = "No Selection";
+
+/* Class = "NSTextFieldCell"; title = "Save Path:"; ObjectID = "v7b-ne-sqf"; */
+"v7b-ne-sqf.title" = "Save Path:";
