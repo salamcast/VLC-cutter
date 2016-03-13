@@ -19,7 +19,7 @@
             <subviews>
                 <amPathPopUpButton verticalHuggingPriority="750" fixedFrame="YES" canChooseFiles="YES" placeholder="No Selection" translatesAutoresizingMaskIntoConstraints="NO" id="uHz-D5-CYa">
                     <rect key="frame" x="17" y="97" width="311" height="22"/>
-                    <amVariablePopUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" id="FaA-RO-76B">
+                    <amVariablePopUpButtonCell key="cell" type="push" title="Desktop" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" tag="1004" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" id="FaA-RO-76B">
                         <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="smallSystem"/>
                         <menu key="menu" title="OtherViews" id="1UZ-p1-nRJ"/>
@@ -68,7 +68,7 @@
                 </amTokenField>
                 <amPathPopUpButton verticalHuggingPriority="750" fixedFrame="YES" canChooseDirectories="YES" placeholder="~/Desktop" translatesAutoresizingMaskIntoConstraints="NO" id="NOX-qd-t8g">
                     <rect key="frame" x="85" y="17" width="243" height="22"/>
-                    <amVariablePopUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" id="Udn-OD-lTp">
+                    <amVariablePopUpButtonCell key="cell" type="push" title="Desktop" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" tag="1004" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" id="Udn-OD-lTp">
                         <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="smallSystem"/>
                         <menu key="menu" title="OtherViews" id="jb7-nD-H8L"/>

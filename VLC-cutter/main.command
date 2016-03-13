@@ -9,13 +9,12 @@
 ##############################
 #  cut Video to save directory
 #
-
-function time2sec {
+function time2sec() {
     if [[ $1 =~ ^[0-9]+$ ]]; then
         echo $1
     else
-        $m=$(echo $1 | cut -d':' -f1)
-        $s=$(echo $1 | cut -d':' -f2)
+        m=$(echo $1 | cut -d':' -f1)
+        s=$(echo $1 | cut -d':' -f2)
         if [[ $m =~ ^[0-9]+$ ]]; then
             if [[ $s =~ ^[0-5][0-9]$ ]]; then
                 if [[ $s =~ ^0[1-9] ]]; then
@@ -33,28 +32,33 @@ function time2sec {
     fi
 }
 
-CMD=/Applications/VLC.app/Contents/MacOS/VLC
+c=0
 while read start_stop; do
-#start
+
+    CMD=/Applications/VLC.app/Contents/MacOS/VLC
+    #start
     if [ $start_sec == 0 ]; then
         test=$(echo $start_stop|cut -d' ' -f1)
-        start=$(time2sec $test)
-
+        start[$c]=$(time2sec $test)
     else
-        start=$start_sec
+        start[$c]=$start_sec
     fi
-#stop
+    #stop
     if [ $stop_sec == 0 ]; then
         test=$(echo $start_stop|cut -d' ' -f2)
-        stop=$(time2sec $test)
+        stop[$c]=$(time2sec $test)
     else
-        stop=$stop_sec
+        stop[$c]=$stop_sec
     fi
-#cut video
-    save="$savepath/$(basename ${filename}) - ${1}-${2}.mp4"
-    sout="--sout=\'#transcode{vcodec=h264,vb=1024,acodec=mp3,ab=192,channels=2,samplerate=44100}:std{access=file,mux=ts,dst=$save}\'"
-    $CMD --intf=rc --start-time $start --stop-time $stop $filename vlc://quit $sout 2>/dev/null
-    echo $save
+    c=$(( $c + 1 ))
+done
 
+v=0
+while [ "x${start[v]}" != "x" ]; do
+    #cut video
+    save=$(echo $savepath/$(basename -s .mp4 $filename )---${start[v]}-${stop[v]}.mp4 | tr ' ' '_' )
+    $CMD --start-time=${start[v]} --stop-time=${stop[v]} --sout="#transcode{vcodec=h264,vb=1024,acodec=mp3,ab=192,channels=2,samplerate=44100}:std{access=file,mux=ts,dst=$save}"  "file://$filename" vlc://quit 2>/dev/null 1>/dev/null
+    echo $save
+    v=$(( $v + 1 ))
 done
 exit 0
