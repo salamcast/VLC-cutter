@@ -25,6 +25,7 @@
                         <menu key="menu" title="OtherViews" id="1UZ-p1-nRJ"/>
                     </amVariablePopUpButtonCell>
                     <connections>
+                        <binding destination="RmC-5P-AAH" name="contentObjects" keyPath="selection.filename" previousBinding="AbP-te-WqU" id="iRe-Pq-FW1"/>
                         <binding destination="RmC-5P-AAH" name="content" keyPath="selection.filename" id="AbP-te-WqU"/>
                     </connections>
                 </amPathPopUpButton>
@@ -74,6 +75,7 @@
                         <menu key="menu" title="OtherViews" id="jb7-nD-H8L"/>
                     </amVariablePopUpButtonCell>
                     <connections>
+                        <binding destination="RmC-5P-AAH" name="contentObjects" keyPath="selection.savepath" previousBinding="T7B-8p-y2T" id="TVB-c2-GBH"/>
                         <binding destination="RmC-5P-AAH" name="content" keyPath="selection.savepath" id="T7B-8p-y2T"/>
                     </connections>
                 </amPathPopUpButton>
@@ -93,6 +95,7 @@
                 <string>filename</string>
                 <string>start_sec</string>
                 <string>stop_sec</string>
+                <string>savepath</string>
             </declaredKeys>
             <connections>
                 <binding destination="-2" name="contentObject" keyPath="parameters" id="jv6-AD-hYs"/>
