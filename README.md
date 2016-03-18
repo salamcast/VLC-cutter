@@ -7,7 +7,8 @@ padding time so the glitches can be trimmed out when editing to video.
 # About Me
 
 I'm Karl, a Rigger and AV Technician by trade working full time for an international
-Audio Visual Company; coding is one of my Hobbies.  
+Audio Visual Company; coding is one of my Hobbies.  You can follow me on Twitter
+__@SalamCast__ for my occasional tweets about technology and Islaam
 
 ### The interface
 
