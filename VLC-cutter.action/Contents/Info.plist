@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMAccepts</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Optional</key>
+		<true/>
+		<key>Types</key>
+		<array>
+			<string>com.apple.cocoa.string</string>
+		</array>
+	</dict>
+	<key>AMApplication</key>
+	<string>VLC</string>
+	<key>AMCanShowSelectedItemsWhenRun</key>
+	<false/>
+	<key>AMCanShowWhenRun</key>
+	<true/>
+	<key>AMCategory</key>
+	<string>AMCategoryMovies</string>
+	<key>AMDefaultParameters</key>
+	<dict>
+		<key>filename</key>
+		<string></string>
+		<key>pad</key>
+		<integer>5</integer>
+		<key>savepath</key>
+		<string>~/Desktop</string>
+		<key>start_sec</key>
+		<string>10</string>
+		<key>stop_sec</key>
+		<string>25</string>
+	</dict>
+	<key>AMDescription</key>
+	<dict>
+		<key>AMDInput</key>
+		<string>Accepts a list of start and end times in seconds or min:sec reference</string>
+		<key>AMDOptions</key>
+		<string>This will accept a list of start and stop times, or else it will use the values provided on the action text boxes</string>
+		<key>AMDRequires</key>
+		<string>This will require VLC.app installed in /Applications</string>
+		<key>AMDResult</key>
+		<string>returns the new file created</string>
+		<key>AMDSummary</key>
+		<string>Takes a video and crops it to the start and end time</string>
+		<key>AMDWebsite</key>
+		<string>https://github.com/SalamCast/</string>
+	</dict>
+	<key>AMIconName</key>
+	<string>(* The name of the icon *)</string>
+	<key>AMKeywords</key>
+	<array>
+		<string>vlc</string>
+		<string>video</string>
+		<string>crop</string>
+		<string>movie</string>
+	</array>
+	<key>AMName</key>
+	<string>VLC-cutter</string>
+	<key>AMProvides</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Types</key>
+		<array>
+			<string>com.apple.cocoa.string</string>
+		</array>
+	</dict>
+	<key>AMRequiredResources</key>
+	<array/>
+	<key>AMWarning</key>
+	<dict>
+		<key>Action</key>
+		<string>(* Action name to be suggested to add prior to this action to make the task safer, e.g. com.apple.Automator.CopyFiles, goes here. *)</string>
+		<key>ApplyButton</key>
+		<string>(* Button label for user to add proposed Action, e.g. Add. *)</string>
+		<key>IgnoreButton</key>
+		<string>(* Button label for user not to add proposed Action, e.g. Don't Add. *)</string>
+		<key>Level</key>
+		<integer>0</integer>
+		<key>Message</key>
+		<string>(* Warning message presented to user goes here. *)</string>
+	</dict>
+	<key>BuildMachineOSBuild</key>
+	<string>15D21</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleIdentifier</key>
+	<string>SalamCast.VLC-cutter</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>VLC-cutter</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>7C1002</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>15C43</string>
+	<key>DTSDKName</key>
+	<string>macosx10.11</string>
+	<key>DTXcode</key>
+	<string>0721</string>
+	<key>DTXcodeBuild</key>
+	<string>7C1002</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2016 Karl Holz. All rights reserved.</string>
+	<key>NSPrincipalClass</key>
+	<string>AMShellScriptAction</string>
+</dict>
+</plist>
