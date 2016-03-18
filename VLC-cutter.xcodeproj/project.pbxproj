@@ -10,6 +10,7 @@
 		C60683FF1C6D7F0400AC0F36 /* main.command in Resources */ = {isa = PBXBuildFile; fileRef = C60683FE1C6D7F0400AC0F36 /* main.command */; };
 		C60684021C6D7F0400AC0F36 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = C60684001C6D7F0400AC0F36 /* main.xib */; };
 		C60684061C6D7F0400AC0F36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C60684041C6D7F0400AC0F36 /* InfoPlist.strings */; };
+		C65986571C9BC9F300A04342 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C65986561C9BC9F300A04342 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		C60684011C6D7F0400AC0F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/main.xib; sourceTree = "<group>"; };
 		C60684031C6D7F0400AC0F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C60684051C6D7F0400AC0F36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C65986561C9BC9F300A04342 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C6A267241C95F2C10022A6E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -35,6 +37,7 @@
 		C60683F11C6D7F0400AC0F36 = {
 			isa = PBXGroup;
 			children = (
+				C65986561C9BC9F300A04342 /* README.md */,
 				C60683FD1C6D7F0400AC0F36 /* VLC-cutter */,
 				C60683FC1C6D7F0400AC0F36 /* Products */,
 			);
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C65986571C9BC9F300A04342 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

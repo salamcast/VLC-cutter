@@ -24,20 +24,22 @@
 	<key>AMDefaultParameters</key>
 	<dict>
 		<key>savepath</key>
-		<string></string>
+		<string>~/Desktop</string>
 		<key>filename</key>
 		<string></string>
 		<key>start_sec</key>
-		<integer>0</integer>
+		<string>10</string>
 		<key>stop_sec</key>
-		<integer>0</integer>
+		<string>25</string>
+		<key>pad</key>
+		<integer>5</integer>
 	</dict>
 	<key>AMDescription</key>
 	<dict>
 		<key>AMDInput</key>
-		<string>Accepts a list of start and end times in seconds</string>
+		<string>Accepts a list of start and end times in seconds or min:sec reference</string>
 		<key>AMDOptions</key>
-		<string>the action shold have the start and stop times set to zero if time cutting list is used</string>
+		<string>This will accept a list of start and stop times, or else it will use the values provided on the action text boxes</string>
 		<key>AMDRequires</key>
 		<string>This will require VLC.app installed in /Applications</string>
 		<key>AMDResult</key>
